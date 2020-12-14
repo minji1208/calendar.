@@ -1,32 +1,9 @@
-package org.jbugkorea.util.data;
-
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.Scanner;
-
-/**
- * D day 계산 프로그램.
- * <p/>
- * 입력: 목표 날짜 예) 20180814
- */
-public class MyDDay {
-    public static void main(String[] args) throws Exception {
-
-        System.out.print("Input Target Date ex) 20180814 = ");
-        Scanner scanner = new Scanner(System.in);
-        final String targetDay = scanner.nextLine();
-        scanner.close();
-
-        // 목표 날짜
-        SimpleDateFormat yyyyMMdd = new SimpleDateFormat("yyyyMMdd");
-        final Date targetDate = yyyyMMdd.parse(targetDay);
-
-        // 현재 날짜
-        final Date todayDate = new Date();
-        final String todayDay = yyyyMMdd.format(todayDate);
-
-        long gap = targetDate.getTime() - todayDate.getTime();
-
-        System.out.println(gap / (24 * 60 * 60 * 1000) + 1 + "일 (" + targetDay + " ~ " + todayDay + ")");
-    }
-}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> 안녕하세용 </title>
+    </head>
+    <body>
+        <p> 안녕하세요 </p>
+    </body>
+</html>
