@@ -1,0 +1,14 @@
+table
+{
+    border:1px solid pink;
+    text-align:center;
+    width:70%;
+    height: 60%;
+}
+body {
+    background-color: mistyrose;
+}
+h1 { text-align: center; color: purple;}
+p {
+    font-size: 7px;
+}
